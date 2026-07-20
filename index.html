@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KOLGANOVA</title>
+<link rel="icon" type="image/png" href="assets/favicon.png?v=1">
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<link rel="stylesheet" href="styles.css?v=16">
+</head>
+<body>
+
+<header class="hero" id="hero">
+  <div class="hero__marble ph ph--marble">
+    <img src="assets/marble.jpg" alt="Светлый мраморный барельеф" onerror="this.closest('.ph').classList.add('missing');this.remove()">
+  </div>
+  <div class="hero__veil" aria-hidden="true"></div>
+  <div class="hero__splash ph ph--splash">
+    <img src="assets/gold-splash-panel.jpg?v=1" alt="Застывший всплеск расплавленного золота" onerror="this.closest('.ph').classList.add('missing');this.remove()">
+  </div>
+
+  <div class="hero__inner wrap">
+    <nav class="nav" aria-label="Основная навигация">
+      <a class="nav__brand" href="#hero">
+        <span class="nav__word">KOLGANOVA</span>
+        <span class="particle particle--lg" aria-hidden="true"><i></i><b></b></span>
+      </a>
+      <div class="nav__links">
+        <a href="#origin" class="nav__link is-active"><span class="nav__dot" aria-hidden="true"></span>Происхождение</a>
+        <a href="#collection" class="nav__link">Каталог</a>
+        <a href="#trajectory" class="nav__link">Траектория</a>
+      </div>
+      <a href="#viewing" class="nav__cta">Частный показ</a>
+      <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span>
+      </button>
+    </nav>
+
+    <div class="hero__content">
+      <p class="hero__kicker fu"><span>[ 01 ]</span><span class="rule"></span><span>Золото — не с Земли.</span></p>
+      <h1 class="hero__title">
+        <span class="fu">ЗОЛОТО СОЗДАНО</span>
+        <span class="fu">НЕ НА ЗЕМЛЕ —</span>
+        <span class="fu">ОНО ПАДАЕТ СО ЗВЁЗД</span>
+      </h1>
+      <p class="hero__sub fu">КАЖДЫЙ АТОМ ЗОЛОТА РОДИЛСЯ ПРИ СТОЛКНОВЕНИИ ДВУХ НЕЙТРОННЫХ ЗВЁЗД. НАШЕ ДЕЛО — ТОЛЬКО ОПРАВА.</p>
+    </div>
+
+    <div class="hero__scroll fu">
+      <span>[ 01 ]</span>
+      <span class="hero__scroll-line" aria-hidden="true"></span>
+      <span class="dim">Листайте</span>
+    </div>
+
+    <div class="hero__card fu">
+      <div class="glass">
+        <p>ИЗДЕЛИЕ 01 / 12 — «GW170817» · ЕДИНСТВЕННАЯ ОТЛИВКА · <span class="gold">ПРОДАНО</span></p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="menu" id="menu" aria-hidden="true">
+  <nav class="menu__nav" aria-label="Мобильная навигация">
+    <a href="#origin">Происхождение</a>
+    <a href="#collection">Каталог</a>
+    <a href="#trajectory">Траектория</a>
+    <a href="#viewing">Частный показ</a>
+  </nav>
+  <p class="menu__foot">KOLGANOVA — СТОЛЕШНИКОВ ПЕР., МОСКВА</p>
+</div>
+
+<main>
+
+  <section class="origin section" id="origin">
+    <div class="origin__halo" id="halo" aria-hidden="true"></div>
+    <div class="wrap origin__inner reveal">
+      <p class="tag"><span>[ 02 ]</span><span class="rule"></span><span>Происхождение</span></p>
+      <h2 class="origin__text">Эхо столкновения мёртвых звёзд, застывшее в благородном металле. Космос создал суть, мы лишь придаём ей форму.</h2>
+      <p class="mono-note">R-ПРОЦЕСС НУКЛЕОСИНТЕЗА · ПОДТВЕРЖДЕНО 17.08.2017 · СИГНАЛ GW170817</p>
+    </div>
+  </section>
+
+  <section class="collision section section--dark" id="collision">
+    <div class="wrap collision__inner">
+      <div class="collision__epicenter">
+        <div class="gw-waves" aria-hidden="true">
+          <span class="gw-ring"></span>
+          <span class="gw-ring"></span>
+          <span class="gw-ring"></span>
+          <span class="gw-ring"></span>
+          <span class="gw-ring"></span>
+          <span class="gw-ring"></span>
+        </div>
+        <div class="collision__photo ph ph--kilonova">
+          <img src="assets/kilonova.jpg" alt="" loading="eager" onerror="this.closest('.ph').classList.add('missing');this.remove()">
+        </div>
+      </div>
+
+      <div class="collision__text-block">
+        <p class="tag tag--light"><span>[ 03 ]</span><span class="rule"></span><span>Столкновение</span></p>
+        <h2 class="collision__text">В момент слияния нейтронных звёзд рождается самый ценный металл во Вселенной. То, что мы создаём сегодня — лишь огранка для космического наследия.</h2>
+        <p class="mono-note mono-note--light">≈ 10 МАСС ЗЕМЛИ ЧИСТОГО ЗОЛОТА — ЗА ОДНУ СЕКУНДУ.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="collection section section--dark" id="collection">
+    <div class="wrap">
+      <div class="collection__head reveal">
+        <p class="tag tag--light"><span>[ 04 ]</span><span class="rule"></span><span>Каталог</span></p>
+        <p class="collection__note">Двенадцать изделий в год. Каждое отливается один раз — форму разбивают сразу после.</p>
+      </div>
+      <div class="collection__grid">
+
+        <article class="piece piece--1 reveal">
+          <div class="piece__media ph ph--piece">
+            <img class="piece__base" src="assets/piece-1.jpg" alt="GW170817 — кольцо слияния, макро на чёрном" loading="lazy" onerror="this.closest('.ph').classList.add('missing');this.remove()">
+            <div class="piece__spot" aria-hidden="true"><img src="assets/piece-1.jpg" alt="" loading="lazy" onerror="this.remove()"></div>
+            <span class="piece__name">GW170817</span>
+          </div>
+          <div class="piece__meta">
+            <div class="piece__row">
+              <span class="particle" aria-hidden="true"><i></i><b></b></span>
+              <span class="piece__num">01</span>
+              <span class="piece__title">Кольцо слияния</span>
+            </div>
+            <p class="piece__data">18 КТ · 4,2 Г<br>RA 13H 09M · DEC −23° 23′</p>
+          </div>
+        </article>
+
+        <article class="piece piece--2 reveal">
+          <div class="piece__media ph ph--piece">
+            <img class="piece__base" src="assets/piece-2.jpg" alt="Lyra — серьги, макро на чёрном" loading="lazy" onerror="this.closest('.ph').classList.add('missing');this.remove()">
+            <div class="piece__spot" aria-hidden="true"><img src="assets/piece-2.jpg" alt="" loading="lazy" onerror="this.remove()"></div>
+            <span class="piece__name">Lyra</span>
+          </div>
+          <div class="piece__meta">
+            <div class="piece__row">
+              <span class="particle" aria-hidden="true"><i></i><b></b></span>
+              <span class="piece__num">02</span>
+              <span class="piece__title">Серьги</span>
+            </div>
+            <p class="piece__data">22 КТ · 3,1 Г<br>ПАРА</p>
+          </div>
+        </article>
+
+        <article class="piece piece--3 reveal">
+          <div class="piece__media ph ph--piece">
+            <img class="piece__base" src="assets/piece-3.jpg" alt="Cassiopeia — колье, макро на чёрном" loading="lazy" onerror="this.closest('.ph').classList.add('missing');this.remove()">
+            <div class="piece__spot" aria-hidden="true"><img src="assets/piece-3.jpg" alt="" loading="lazy" onerror="this.remove()"></div>
+            <span class="piece__name">Cassiopeia</span>
+          </div>
+          <div class="piece__meta">
+            <div class="piece__row">
+              <span class="particle" aria-hidden="true"><i></i><b></b></span>
+              <span class="piece__num">03</span>
+              <span class="piece__title">Колье</span>
+            </div>
+            <p class="piece__data">18 КТ · 11,8 Г<br>ОДНА НИТЬ</p>
+          </div>
+        </article>
+
+        <article class="piece piece--4 reveal">
+          <div class="piece__media ph ph--piece">
+            <img class="piece__base" src="assets/piece-4.jpg" alt="Antares — перстень, макро на чёрном" loading="lazy" onerror="this.closest('.ph').classList.add('missing');this.remove()">
+            <div class="piece__spot" aria-hidden="true"><img src="assets/piece-4.jpg" alt="" loading="lazy" onerror="this.remove()"></div>
+            <span class="piece__name">Antares</span>
+          </div>
+          <div class="piece__meta">
+            <div class="piece__row">
+              <span class="particle" aria-hidden="true"><i></i><b></b></span>
+              <span class="piece__num">04</span>
+              <span class="piece__title">Перстень</span>
+            </div>
+            <p class="piece__data">22 КТ · 9,4 Г<br>ПЕЧАТЬ</p>
+          </div>
+        </article>
+
+        <article class="piece piece--5 reveal">
+          <div class="piece__media ph ph--piece">
+            <img class="piece__base" src="assets/piece-5.jpg" alt="Vega — браслет, макро на чёрном" loading="lazy" onerror="this.closest('.ph').classList.add('missing');this.remove()">
+            <div class="piece__spot" aria-hidden="true"><img src="assets/piece-5.jpg" alt="" loading="lazy" onerror="this.remove()"></div>
+            <span class="piece__name">Vega</span>
+          </div>
+          <div class="piece__meta">
+            <div class="piece__row">
+              <span class="particle" aria-hidden="true"><i></i><b></b></span>
+              <span class="piece__num">05</span>
+              <span class="piece__title">Браслет</span>
+            </div>
+            <p class="piece__data">18 КТ · 15,2 Г<br>ЖЁСТКИЙ</p>
+          </div>
+        </article>
+
+        <article class="piece piece--6 reveal">
+          <div class="piece__media ph ph--piece">
+            <img class="piece__base" src="assets/piece-6.jpg" alt="Sirius — кулон, макро на чёрном" loading="lazy" onerror="this.closest('.ph').classList.add('missing');this.remove()">
+            <div class="piece__spot" aria-hidden="true"><img src="assets/piece-6.jpg" alt="" loading="lazy" onerror="this.remove()"></div>
+            <span class="piece__name">Sirius</span>
+          </div>
+          <div class="piece__meta">
+            <div class="piece__row">
+              <span class="particle" aria-hidden="true"><i></i><b></b></span>
+              <span class="piece__num">06</span>
+              <span class="piece__title">Кулон</span>
+            </div>
+            <p class="piece__data">24 КТ · 2,7 Г<br>ОДИН КАМЕНЬ</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="trajectory section section--dark" id="trajectory">
+    <div class="trajectory__stars" aria-hidden="true">
+      <div class="trajectory__layer trajectory__layer--1"></div>
+      <div class="trajectory__layer trajectory__layer--2"></div>
+    </div>
+    <div class="trajectory__warmglow" aria-hidden="true"></div>
+
+    <div class="wrap trajectory__head">
+      <p class="tag tag--light"><span>[ 05 ]</span><span class="rule"></span><span>Траектория</span></p>
+      <h2 class="trajectory__intro">От вспышки в небе до кольца на пальце — тринадцать миллиардов лет пути.</h2>
+    </div>
+
+    <div class="trajectory__stage">
+      <svg class="trajectory__svg" viewBox="0 0 400 1600" preserveAspectRatio="xMidYMin meet" aria-hidden="true">
+        <defs>
+          <filter id="tglow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="3.5" result="b"/>
+            <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+          <filter id="cglow" x="-300%" y="-300%" width="700%" height="700%">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="b"/>
+            <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+        </defs>
+        <path class="trajectory__path" filter="url(#tglow)" d="M 200 60
+          a 60 34 -18 1 1 0.1 0
+          C 260 260, 120 480, 190 720
+          C 238 900, 138 1145, 170 1360
+          C 190 1460, 195 1500, 200 1540" />
+        <circle class="trajectory__comet" cx="200" cy="60" r="4" fill="var(--gold)" filter="url(#cglow)"/>
+        <circle class="trajectory__dot trajectory__dot--1" cx="200" cy="60" r="5"/>
+        <circle class="trajectory__dot trajectory__dot--2" cx="185" cy="560" r="5"/>
+        <circle class="trajectory__dot trajectory__dot--3" cx="200" cy="910" r="5"/>
+        <circle class="trajectory__dot trajectory__dot--4" cx="200" cy="1540" r="6" fill="var(--gold)"/>
+      </svg>
+
+      <div class="trajectory__note trajectory__note--1" style="top: 60px;">
+        <p class="mono-note mono-note--light trajectory__time">T+0</p>
+        <h3 class="trajectory__stage-title">Слияние</h3>
+        <p class="trajectory__stage-text">Две мёртвые звезды становятся одной вспышкой.</p>
+      </div>
+      <div class="trajectory__note trajectory__note--2" style="top: 560px;">
+        <p class="mono-note mono-note--light trajectory__time">T+7 000 ЛЕТ</p>
+        <h3 class="trajectory__stage-title">Дрейф</h3>
+        <p class="trajectory__stage-text">Тяжёлые элементы расходятся сквозь пустоту.</p>
+      </div>
+      <div class="trajectory__note trajectory__note--3" style="top: 1080px;">
+        <p class="mono-note mono-note--light trajectory__time">T+4,6 МЛРД ЛЕТ</p>
+        <h3 class="trajectory__stage-title">Падение</h3>
+        <p class="trajectory__stage-text">Метеоритная пыль ложится в земную кору.</p>
+      </div>
+      <div class="trajectory__note trajectory__note--4" style="top: 1540px;">
+        <p class="mono-note mono-note--light trajectory__time">T+СЕГОДНЯ</p>
+        <h3 class="trajectory__stage-title">Отливка</h3>
+        <p class="trajectory__stage-text">Один ювелир. Одно пламя. Двенадцать отливок в год.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="viewing section" id="viewing">
+    <div class="wrap viewing__inner reveal">
+      <p class="tag"><span>[ 06 ]</span><span class="rule"></span><span>Частный показ</span></p>
+      <h2 class="viewing__headline">Записаться на показ</h2>
+
+      <form class="form" id="viewing-form" novalidate>
+        <div class="form__grid">
+          <label class="field">
+            <span class="field__label">Имя</span>
+            <input class="field__input" type="text" name="name" autocomplete="name" required>
+          </label>
+          <label class="field">
+            <span class="field__label">Почта</span>
+            <input class="field__input" type="email" name="email" autocomplete="email" required>
+          </label>
+          <label class="field">
+            <span class="field__label">Желаемая дата</span>
+            <input class="field__input" type="text" name="date" placeholder="дд.мм.гггг">
+          </label>
+          <label class="field field--wide">
+            <span class="field__label">Комментарий</span>
+            <textarea class="field__input field__area" name="note" rows="1"></textarea>
+          </label>
+        </div>
+        <p class="form__error" id="form-error" role="alert" hidden>Заполните имя и корректную почту.</p>
+        <button class="form__submit" type="submit">Отправить заявку</button>
+      </form>
+
+      <div class="form__success" id="form-success" hidden>
+        <span class="particle particle--lg" aria-hidden="true"><i></i><b></b></span>
+        <p>Заявка принята. Ответим в течение двух дней.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer__stars" aria-hidden="true">
+    <div class="footer__layer footer__layer--1"></div>
+    <div class="footer__layer footer__layer--2"></div>
+    <div class="footer__layer footer__layer--3"></div>
+    <div class="footer__starveil"></div>
+  </div>
+  <div class="wrap footer__inner">
+    <div class="footer__word">
+      <span class="footer__wordmark">KOLGANOVA</span>
+      <span class="particle particle--xl" aria-hidden="true"><i></i><b></b></span>
+    </div>
+    <p class="footer__line">
+      <span>KOLGANOVA — СТОЛЕШНИКОВ ПЕР., МОСКВА · KOLGANOVA.JEWELRY ·</span>
+      <span class="particle particle--sm" aria-hidden="true"><i></i><b></b></span>
+      <span class="gold">AU 79</span>
+    </p>
+    <p class="footer__copy">© 2026 KOLGANOVA. ВСЕ ИЗДЕЛИЯ ОТЛИТЫ ОДНАЖДЫ.</p>
+  </div>
+</footer>
+
+<script src="assets/js/gsap.min.js"></script>
+<script src="assets/js/scrolltrigger.min.js"></script>
+<script src="main.js?v=10"></script>
+</body>
+</html>

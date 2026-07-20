@@ -1,0 +1,5 @@
+_specs/
+_work/
+_tmp_*
+.DS_Store
+Thumbs.db
