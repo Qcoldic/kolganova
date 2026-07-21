@@ -451,7 +451,7 @@ html.js .fu.on{
 .footer__word{position:relative;line-height:.78;}
 .footer__wordmark{
   font-family:var(--serif);font-weight:500;text-transform:uppercase;
-  font-size:clamp(58px,19vw,180px);letter-spacing:-.055em;
+  font-size:clamp(46px,calc((100vw - 96px) * .152),180px);letter-spacing:-.055em;
   display:block;white-space:nowrap;
 }
 .footer__word .particle{position:absolute;top:8%;right:0;}
@@ -516,6 +516,7 @@ html.js section.inview .reveal:nth-child(6){transition-delay:.4s;}
   .atelier__fig--1{grid-column:1/13;grid-row:1;min-height:440px;}
   .atelier__fig--3{grid-column:1/7;grid-row:2;min-height:340px;}
   .atelier__text{grid-column:7/13;grid-row:2;margin-top:0;}
+  .footer__wordmark{font-size:clamp(40px,calc((100vw - 64px) * .152),180px);}
 }
 @media (max-width:860px){
   .nav__links,.nav__cta{display:none;}
@@ -544,6 +545,7 @@ html.js section.inview .reveal:nth-child(6){transition-delay:.4s;}
   .hero__scroll{left:20px;}
   .nav{gap:16px;}
   .nav__word{font-size:17px;letter-spacing:.22em;}
+  .footer__wordmark{font-size:clamp(32px,calc((100vw - 40px) * .152),180px);}
 }
 
 @media (prefers-reduced-motion:reduce){
